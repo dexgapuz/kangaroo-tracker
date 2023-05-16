@@ -59,7 +59,7 @@
                 </div>
                 <div class="form-group">
                     <label class="col-form-label">Birthday</label>
-                    <input type="date" class="form-control" name="birthday">
+                    <input type="date" class="form-control" name="birthday" max="{{ date("Y-m-d") }}">
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Submit</button>
             </form>

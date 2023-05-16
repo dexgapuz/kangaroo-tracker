@@ -21,7 +21,12 @@
 1. Go to ```docker-config``` directory
 2. Execute ```docker-compose up -d```
 3. Set ```DB_HOST``` to ```mysql``` in ```.env``` file.
+3. Set ```DB_PASSWORD``` to ```root``` in ```.env``` file.
 4. And then proceed to installation.
+
+## User Credential
+Username: admin
+Password: Sys@dm1n
 
 ## Technologies used
 * [Laravel 9](https://laravel.com/)
