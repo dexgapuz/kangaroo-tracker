@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kangaroo Tracker</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ mix('css/dx.light.css') }}">
     <script src="{{ mix('js/app.js') }}"></script>
+    {{-- <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/22.2.6/css/dx.light.css" />
+    <script src="https://cdn3.devexpress.com/jslib/22.2.6/js/dx.all.js"></script> --}}
 </head>
 <body>
     @yield('body')

@@ -15,4 +15,5 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ])
-    .sass('resources/sass/app.scss', 'public/css');
+    .css('node_modules/bootstrap/dist/css/bootstrap.min.css', 'public/css')
+    .css('node_modules/devextreme/dist/css/dx.light.css', 'public/css');

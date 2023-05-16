@@ -1,4 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/dx.light.css": "/css/dx.light.css",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
     "/css/app.css": "/css/app.css"
 }

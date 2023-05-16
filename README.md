@@ -9,13 +9,11 @@
 ### Installation
 
 1. Install composer dependencies ```composer install```
+2. Install npm dependencies ```npm install```
+3. Compile front end assets and scripts ```npm run dev```
 4. Setup ```.env``` file
 5. Generate an app encryption key ```php artisan key:generate```
 6. Migrate database ```php artisan migrate```
-7. Seed database ```php artisan db:seed```
-
-### Run unit test
-```./vendor/bin/phpunit```
 
 ## Technologies used
 * [Laravel 9](https://laravel.com/)
