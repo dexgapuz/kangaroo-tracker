@@ -25,7 +25,7 @@
 4. And then proceed to installation.
 
 ## User Credential
-Username: admin
+Username: admin__
 Password: Sys@dm1n
 
 ## Technologies used
