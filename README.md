@@ -15,6 +15,12 @@
 5. Generate an app encryption key ```php artisan key:generate```
 6. Migrate database ```php artisan migrate```
 
+### For Docker
+
+1. Go to ```docker-config``` directory
+2. Execute ```docker-compose up -d```
+3. And then proceed to installation.
+
 ## Technologies used
 * [Laravel 9](https://laravel.com/)
 * [MySQL](https://www.mysql.com/)

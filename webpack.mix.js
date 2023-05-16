@@ -16,4 +16,5 @@ mix.js('resources/js/app.js', 'public/js')
         //
     ])
     .css('node_modules/bootstrap/dist/css/bootstrap.min.css', 'public/css')
+    .css('node_modules/sweetalert2/dist/sweetalert2.min.css', 'public/css')
     .css('node_modules/devextreme/dist/css/dx.light.css', 'public/css');
