@@ -5,6 +5,7 @@
 ### Prerequisites
 
 * [Composer](https://getcomposer.org/)
+* [Node.js](https://nodejs.org)
 
 ### Installation
 
@@ -19,7 +20,8 @@
 
 1. Go to ```docker-config``` directory
 2. Execute ```docker-compose up -d```
-3. And then proceed to installation.
+3. Set ```DB_HOST``` to ```mysql``` in ```.env``` file.
+4. And then proceed to installation.
 
 ## Technologies used
 * [Laravel 9](https://laravel.com/)
